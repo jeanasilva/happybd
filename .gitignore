@@ -1,0 +1,14 @@
+# Arquivos temporários e de compilação
+node_modules/
+dist/
+*.log
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Arquivos de ambiente local
+.env
+
+# Dependendo do seu ambiente de desenvolvimento, você pode adicionar mais exclusões aqui
+# Por exemplo, se você está usando VSCode, pode querer ignorar seus arquivos de configuração
+.vscode/
