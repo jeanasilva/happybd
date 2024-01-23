@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(to bottom, #fff, #eee);
+}
+
+.logo {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  max-width: 100px;
+  height: auto;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+p {
+  position: absolute;
+  margin: 0;
+  font-family: "Verdana", sans-serif;
+  font-size: 16px;
+  color: #eee;
+  top: calc(100vh - 30px);
+  text-shadow: 0 0 2px white;
+  white-space: pre-line;
+}
+
+p a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+span {
+  font-size: 11px;
+}
+
+p > a:first-of-type {
+  font-size: 20px;
+}
